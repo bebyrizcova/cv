@@ -22,11 +22,29 @@
 
     <link rel="stylesheet" href="css/style.css">
     <style>
+      .working-span{
+        height:auto !important;width: 60%;margin-top: 15%;margin-left: auto;margin-right: auto;
+      }
+      .working-h{
+        margin-bottom: 20px !important;font-size: 23px !important;
+      }
+      .working-sub{
+        padding-right:10% !important;font-size: 16px !important;color: black !important
+      }
+      .working-li{
+        font-size: 15px !important;
+      }
       .inside-ul{
         padding-initial-left:2em;
         font-size: 12px;
       }
-      @media only screen and (max-width: 400px) {
+      @media only screen and (max-width: 500px) {
+        .working-span{
+          width: 90% !important;margin-top: 10% !important;
+        }
+        #mob-img{
+          height: 40px !important; width: 40px !important;
+        }
         .mar-5-l{
           margin-left: 10px !important;
         } 
@@ -87,10 +105,9 @@
 
                   <ul class="site-menu main-menu js-clone-nav d-none d-lg-none">
                     <li><a href="#home-section" class="nav-link">Home</a></li>
-                    <li><a href="#what-we-do-section" class="nav-link">What We Do</a></li>
-                    <li><a href="#about-section" class="nav-link">About Us</a></li>
-                    <li><a href="#portfolio-section" class="nav-link">Portfolio</a></li>
-                    <li><a href="#studio-section" class="nav-link">Gallery</a></li>
+                    <li><a href="#what-we-do-section" class="nav-link">Working Experience</a></li>
+                    <li><a href="#about-section" class="nav-link">Biography</a></li>
+                    <li><a href="#portfolio-section" class="nav-link">Latest Project</a></li>
                     <li><a href="#contact-section" class="nav-link">Contact</a></li>
                   </ul>
                 </div>
@@ -123,7 +140,7 @@
                 <h1>Beby Rizcova</h1>
               </div>
               <div class="text">
-                <p class="sub-text mb-5" style="font-size: 18px"><span style="font-size: 24px;">Civil Engineer</span> <br> Assistant Project Manager | Junior Research Development </p>
+                <p class="sub-text mb-5" style="font-size: 18px"><span style="font-size: 24px;font-weight: 500">Civil Engineer</span> <br> Assistant Project Manager | Junior Research Development </p>
                 <p><a href="#" target="_blank" class="btn btn-outline-primary btn-md">Contact Me</a></p>
               </div>
             </div>
@@ -147,57 +164,22 @@
                 <div class="service h-100">
                   <h3>Research and Development | 2018 - Present</h3>
                   <p>I'm in Research and Development Team that work together in PT Nohara Alta Indonesia</p>
-                  <ul style="font-size: 14px; display: none">
-                    <li>
-                      Development of Installation Method for Wall Panel
-                    </li>
-                    <li>
-                      Make a Project Methods Proposal (Drawing)
-                    </li>
-                    <li>
-                      Technical Support
-                      <ul class="inside-ul">
-                        <li>GUNZE for Factory building in Vietnam (as Drafter)</li>
-                        <li>TOTAL.tbk for the Pakubuwono Menteng Project (as Method Planner)</li>
-                      </ul>
-                    </li>
-                    <li>
-                      Mock Up Supervise
-                      <ul class="inside-ul">
-                        <li>District 1 Meikarta Cikarang - CSCEC</li>
-                        <li>Tokyo Riverside Apartment PIK - Agung Sedayu</li>
-                        <li>Sky House Apartment Alam Sutra - CSCEC</li>
-                      </ul>
-                    </li>
-                    <li>
-                      Project Support
-                      <ul class="inside-ul">
-                        <li>Day n Night Hotel - Kebon Jeruk (as Quality Controller)</li>
-                        <li>Opus Park Apartment - Sentul (as Assistant Project Manager)</li>
-                      </ul>
-                    </li>
-                  </ul>
-                  <p><a href="#" class="readmore">Read More</a></p>
+                  <p><a href="#r1" class="readmore" id="r1">Read More</a></p>
                 </div>
               </div>
               <div class="col-md-6 col-lg-6 mb-6 mb-lg-6">
                 <div class="service h-100">
                   <h3>Assistant Project Manager | Jul 2018 - Feb 2019</h3>
                   <p>I'm as Assistant Project Manager for Wall Panel Installation at Opus Park Apartment </p>
-                  <ul style="font-size: 14px; display: none">
-                    <li>Schedule Control</li>
-                    <li>Quality Control</li>
-                    <li>Logistic Controller</li>
-                    <li>Labour Payment</li>
-                  </ul>
-                  <p><a href="#" class="readmore">Read more</a></p>
+                  
+                  <p><a href="#r2" class="readmore" id="r2">Read more</a></p>
                 </div>
               </div>
               <div class="col-md-6 col-lg-6 mb-6 mb-lg-6">
                 <div class="service h-100">
                   <h3>Geotechnical Engineer | Sept 2018 - Dec 2018</h3>
                   <p>I'm as Geotechnical Engineer that build foundation design support in PT Katama Inovasi Global.</p>
-                  <p><a href="#" class="readmore">Read More</a></p>
+                  <p><a href="#r3" class="readmore" id="r3">Read More</a></p>
                 </div>
               </div>
 
@@ -205,7 +187,7 @@
                 <div class="service h-100">
                   <h3>Quality Control | Internship</h3>
                   <p>I'm as Quality Control when intern in PT Adhikarya Gedung that handle RSKIA Bandung project . </p>
-                  <p><a href="#" class="readmore">Read more</a></p>
+                  <p><a href="#r4" class="readmore" id="r4">Read more</a></p>
                 </div>
               </div>
             </div>
@@ -235,7 +217,7 @@
                 <a href="#" class="instagram p-2"><span class="icon-instagram"></span></a>
                 <a href="#" class="linkedin p-2"><span class="icon-linkedin"></span></a>
               </p>
-            <p><a data-fancybox data-ratio="2" href="https://vimeo.com/326176805" class="d-flex align-items-center"><span class="icon-play_circle_outline h4 m-0 mr-2"></span> <span>Hire Me</span></a></p>
+            <p><a data-fancybox data-ratio="2" href="https://vimeo.com/326176805" class="d-flex align-items-center"><span class="icon-play_circle_outline h4 m-0 mr-2"></span> <span>Contact</span></a></p>
           </div>
         </div>
       </div>
@@ -252,7 +234,7 @@
         </div>
         <div class="row no-gutters">
           <div class="col-lg-6 mb-5 person">
-            <img src="images/person_1.jpg" alt="Image" class="img-fluid mb-5" id="disnone">
+            <img src="images/achievement1.png" alt="Image" class="img-fluid mb-5" id="disnone">
 
             <div class="row">
               <div class="col-lg-10 ml-auto">
@@ -260,7 +242,7 @@
                   <h3 id="mob-16" class="mar-5-l">1st Winner of Geotechnical Engineering Competition | Civil National Expo 2017</h3>
                   <div id="mar-30-lr">
                     <span class="mb-4 d-block mob-14">Held by <b>Tarumanagara University</b></span>
-                    <p class="mob-14">Analyze the lateral resistance of foundation and compare the result with the loading test</p>
+                    <p class="mob-14">Emphasized at problem of pile under lateral loading. inquiry the measurement data (bor hole is given, soil parameter use the typical condition based on related topic) for analyze working load under lateral. We use p-y methode for analyze and giving satisfactory result. the calculation of p-y methode is under Allpile program (FHWA code)</p><br>
                     <p><a data-fancybox data-ratio="2" href="https://vimeo.com/326176805" class="d-flex align-items-center mob-14" style="margin-top: 5px"><span class="icon-play_circle_outline h4 m-0 mr-2"></span> <span>View Certificate</span></a></p>
                   </div>
                 </div>
@@ -268,14 +250,14 @@
             </div>
           </div>
           <div class="col-lg-6 person">
-            <img src="images/person_2.jpg" alt="Image" class="img-fluid mb-5" id="disnone">
+            <img src="images/achievement2.png" alt="Image" class="img-fluid mb-5" id="disnone">
             <div class="row">
               <div class="col-lg-10 ml-auto">
                 <div class="pr-lg-5">
                   <h3 id="mob-16" class="mar-5-l" >Finalist of Geotechnical Engineering Competition | Civil Expo 2017 </h3>
                   <div id="mar-30-lr">
                     <span class="mb-4 d-block mob-14">Held by <b>Institute of Technology Sepuluh November</b></span>
-                    <p class="mob-14" >Design and analyze  for soil improvement of  toll road problems in soft soil layer, we use vacuum preloading method for soil improvement</p>
+                    <p class="mob-14" >Challenge on soil improvement for toll road project (gempol - pasuruan). Soil improvement needed for this project because of poor soil condition along the area. the time of consolidation too long and impossible for wait the proses during the project start. the elimination round emphasized at soil improvment (all methode approved), in this round we used the vacuum preloading methode. at the final round we must analyze with preloading methode.</p>
                    <p><a data-fancybox data-ratio="2" href="https://vimeo.com/326176805" class="d-flex align-items-center mob-14" style="margin-top: 5px"><span class="icon-play_circle_outline h4 m-0 mr-2"></span> <span>View Certificate</span></a></p>
                  </div>
                 </div>
@@ -297,16 +279,23 @@
         </div>
         <div class="row mb-5" id="mar-20-lr">
           <div class="col-lg-6 mb-4 mb-lg-0">
-            <img src="images/sq_img_2.jpg" alt="Image" class="img-fluid" id="disnone">
+            <img src="images/p2.png" alt="Image" class="img-fluid" id="disnone">
           </div>
           <div class="col-lg-5 h-100 jm-sticky-top ml-auto">
-            <h3>Project title one</h3>
-            <p class="mb-4">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-            <p class="mb-4"><a href="#" class="readmore">Visit website</a></p>
+            <h3>Opus Park Appartment </h3>
+            <p class="mb-4">Project start on July 2019 until February 2020.Involved as an Assistant Project Manager which help Japanese Project Manager
+            </p>
+            <p class="mb-4"><a href="#" class="readmore">Project Description</a></p>
             <div class="testimonial bg-white h-100">
-              <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, libero, perspiciatis. Voluptas a, blanditiis corporis impedit tempora minima et voluptatum rem, aut ullam placeat rerum, numquam velit perferendis consequatur culpa.
-              </p>
+              <ul style="font-size: 14px;line-height: 1.8">
+                <li>Checking and reviews document from Quality control division</li>
+                <li>Purchasing for sub-material and tools</li>
+                <li>Review for Progress based on schedule (s-curve)</li>
+                <li>Developing installation method (Shop drawing)</li>
+                <li>Coordination with main contractor</li>
+                <li>Foreman trainee for wall panel installation (provide supporting presentation)</li>
+                <li>Make a Daily report, Weekly Report, and Monthly report. (directly to Project manager and all directors)</li>
+              </ul>
               
             </div>
           </div>
@@ -314,32 +303,38 @@
 
         <div class="row mb-5" id="mar-20-lr">
           <div class="col-lg-6 order-1 order-lg-2 mb-4 mb-lg-0">
-            <img src="images/sq_img_4.jpg" alt="Image" class="img-fluid" id="disnone">
+            <img src="images/p4.png" alt="Image" class="img-fluid" id="disnone">
           </div>
           <div class="col-lg-5 h-100 jm-sticky-top mr-auto order-2 order-lg-1">
-            <h3>Project title two</h3>
-            <p class="mb-4">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-            <p class="mb-4"><a href="#" class="readmore">Visit website</a></p>
+            <h3>Meikarta District 1 Mock Up</h3>
+            <p class="mb-4">Mock Up for apartment unit using wall panel. Mock up duration was 7 days for wall installation + 2 days for skim coat finishing. Start on Middle of March 2019.Involved as a Supervisor Mock up.</p>
+            <p class="mb-4"><a href="#" class="readmore">Responsibilities</a></p>
             <div class="testimonial bg-white h-100">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi corporis possimus, nemo voluptates inventore provident voluptatem, molestiae aperiam officia minima saepe eaque nostrum illum obcaecati delectus laudantium illo quia, architecto!
-              </p>
+              <ul style="font-size: 14px;line-height: 1.8">
+                <li>Provide shop drawing</li>
+                <li>Provide sub-material and tools (purchasing)</li>
+                <li>Quality control for installation</li>
+                <li>Reviews Foreman workability</li>
+              </ul>
             </div>
           </div>
         </div>
 
           <div class="row mb-5" id="mar-20-lr">
           <div class="col-lg-6 mb-4 mb-lg-0">
-            <img src="images/sq_img_6.jpg" alt="Image" class="img-fluid" id="disnone">
+            <img src="images/p6.png" alt="Image" class="img-fluid" id="disnone">
           </div>
           <div class="col-lg-5 h-100 jm-sticky-top ml-auto">
-            <h3>Project title three</h3>
-            <p class="mb-4">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-            <p class="mb-4"><a href="#" class="readmore">Visit website</a></p>
+            <h3>Tokyo River Side Mock Up</h3>
+            <p class="mb-4">Mock Up for L wall using wall panel. Mock Up location was on Menara Jakarta (basement). The project start on May 2019 within 1 day installation, 5 days curing, and 1 days finishing. Involved as a Supervisor Mock up</p>
+            <p class="mb-4"><a href="#" class="readmore">Responsibilities</a></p>
             <div class="testimonial bg-white h-100">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat voluptate ipsa eaque fugit quasi doloremque veniam expedita quisquam, eveniet libero nisi distinctio dolore veritatis quidem delectus obcaecati deleniti nesciunt ipsum!
-              </p>
+              <ul style="font-size: 14px; line-height: 1.8">
+                <li>Provide shop drawing</li>
+                <li>Provide sub-material and tools (purchasing)</li>
+                <li>Quality control for installation</li>
+                <li>Reviews Foreman workability</li>
+              </ul>
             </div>
           </div>
         </div>
@@ -347,97 +342,7 @@
       </div>
     </div>
     
-    <div class="site-section" id="studio-section">
-      <div class="container">
-
-        <div class="row mb-5 ">
-          <div class="col-md-7 section-title text-center mx-auto">
-            <span class="sub-title mb-2 d-block">Beby Rizcova</span>
-            <h2 class="title text-primary mb-3">Galery</h2>
-          </div>
-        </div>
-       
-        <div id="posts" class="row no-gutter">
-          <div class="item web col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-            <a href="images/sq_img_1.jpg" class="item-wrap" data-fancybox="gal">
-              <span class="icon-search2"></span>
-              <img class="img-fluid" src="images/sq_img_1.jpg">
-            </a>
-          </div>
-          <div class="item web col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-            <a href="images/sq_img_2.jpg" class="item-wrap" data-fancybox="gal">
-              <span class="icon-search2"></span>
-              <img class="img-fluid" src="images/sq_img_2.jpg">
-            </a>
-          </div>
-
-          <div class="item brand col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-            <a href="images/sq_img_3.jpg" class="item-wrap" data-fancybox="gal">
-              <span class="icon-search2"></span>
-              <img class="img-fluid" src="images/sq_img_3.jpg">
-            </a>
-          </div>
-
-          <div class="item design col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-            <a href="images/sq_img_4.jpg" class="item-wrap" data-fancybox="gal">
-              <span class="icon-search2"></span>
-              <img class="img-fluid" src="images/sq_img_4.jpg">
-            </a>
-          </div>
-
-          <div class="item web col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-            <a href="images/sq_img_5.jpg" class="item-wrap" data-fancybox="gal">
-              <span class="icon-search2"></span>
-              <img class="img-fluid" src="images/sq_img_5.jpg">
-            </a>
-          </div>
-
-          <div class="item brand col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-            <a href="images/sq_img_6.jpg" class="item-wrap" data-fancybox="gal">
-              <span class="icon-search2"></span>
-              <img class="img-fluid" src="images/sq_img_6.jpg">
-            </a>
-          </div>
-
-          <div class="item web col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-            <a href="images/sq_img_7.jpg" class="item-wrap" data-fancybox="gal">
-              <span class="icon-search2"></span>
-              <img class="img-fluid" src="images/sq_img_7.jpg">
-            </a>
-          </div>
-
-          <div class="item web col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-            <a href="images/sq_img_9.jpg" class="item-wrap" data-fancybox="gal">
-              <span class="icon-search2"></span>
-              <img class="img-fluid" src="images/sq_img_9.jpg">
-            </a>
-          </div>
-
-          <div class="item design col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-            <a href="images/sq_img_10.jpg" class="item-wrap" data-fancybox="gal">
-              <span class="icon-search2"></span>
-              <img class="img-fluid" src="images/sq_img_10.jpg">
-            </a>
-          </div>
-
-          <div class="item brand col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-            <a href="images/sq_img_11.jpg" class="item-wrap" data-fancybox="gal">
-              <span class="icon-search2"></span>
-              <img class="img-fluid" src="images/sq_img_11.jpg">
-            </a>
-          </div>
-
-          <div class="item design col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-            <a href="images/sq_img_12.jpg" class="item-wrap" data-fancybox="gal">
-              <span class="icon-search2"></span>
-              <img class="img-fluid" src="images/sq_img_12.jpg">
-            </a>
-          </div>
-
-
-        </div>
-      </div>
-    </div> <!-- END .site-section -->
+    
     
     <div class="site-section" id="contact-section">
       <div class="container">
@@ -447,33 +352,16 @@
             <span class="sub-title mb-2 d-block">Beby Rizcova</span>
             <h2 class="title text-primary">Contact</h2>
           </div>
-
-          <div class="row mb-4">
-            <div class="col-md-6 mb-4 mb-md-0">
-              <input type="text" class="form-control" placeholder="First name">
-            </div>
-            <div class="col-md-6">
-              <input type="text" class="form-control" placeholder="Last name">
-            </div>
+          <div style="text-align: center"> 
+            <a href="mailto:rizcovabee@gmail.com" style="margin: 10px">
+            <img src="images/gmail.png" alt="" style="width: 55px; height: 55px" id="mob-img">
+            </a>
+            <a href="huhu.com" style="margin: 10px">
+            <img src="images/linkedin.png" alt="" style="width: 55px; height: 55px" id="mob-img">
+            </a>
           </div>
 
-          <div class="row mb-4">
-            <div class="col-12">
-              <input type="text" class="form-control" placeholder="Email">
-            </div>
-          </div>
-
-          <div class="row mb-4">
-            <div class="col-12">
-              <textarea class="form-control" name="" id="" cols="30" rows="7" placeholder="Message"></textarea>
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="col-12">
-              <button type="submit" class="btn btn-primary btn-md">Send Message</button>
-            </div>
-          </div>
+          
 
         </form>
       </div>
@@ -493,6 +381,63 @@
     </footer>
   </div>
 
+  <div class="" style="display:none;width:100%;height: 100vh;position: fixed;z-index: 9999;top:0;background-color: rgba(1,1,1,0.2  )" id="box">
+    <div class="service h-100 working-span" id="w1" style="display: none">
+      <div style="float: right;" ><span class="icon-close2" style="font-size: 27px" id="w_close_1"></span></div>
+      <h3 class="working-h">Research and Development Staff – PT Nohara Alta Indonesia</h3>
+      <p class="working-sub">My main role at PT Nohara Alta Indonesia is as a Research and Development staff.
+      This company is Japanese manufacture factory which production sandwich panel (wall panel).
+      As a Research and development staff my responsibilities are:
+      </p>
+      <ul style="color: black">
+        <li>Develop Installation method</li>
+        <li>Develop New material for repairing crack</li>
+        <li>Develop repairing method</li>
+        <li>Provide sales team as Technical Support</li>
+        <li>Project Support (like supervising mock up, Estimator mock up, Drafter Mock Up)</li>
+      </ul>
+    </div>
+    <div class="service h-100 working-span" id="w2" style="display: none">
+      <div style="float: right;" ><span class="icon-close2" style="font-size: 27px" id="w_close_2"></span></div>
+      <h3 class="working-h">Assistant Project Manager – Opus Park Apartment Project</h3>
+      <p class="working-sub">While I work as Research and Development, I trusted to support one of PT. Nohara Alta Indonesia Project as Assistant Project Manager for Opus Park Apartment.This Project actualy start on December, But I Join in July 2019. As an Assistant Project Manager my responsibilities are:
+      </p>
+      <ul style="color: black">
+        <li>Checking and reviews document from Quality control division</li>
+        <li>Purchasing for sub-material and tools</li>
+        <li>Review for Progress based on schedule (s-curve)</li>
+        <li>Developing installation method (Shop drawing)</li>
+        <li>Coordination with main contractor</li>
+        <li>Foreman trainee for wall panel installation (provide supporting presentation)</li>
+        <li>Make a Daily report, Weekly Report, and Monthly report. (directly to Project manager and all directors) </li>
+      </ul>
+    </div>
+    <div class="service h-100 working-span" id="w3" style="display: none">
+      <div style="float: right;" ><span class="icon-close2" style="font-size: 27px" id="w_close_3"></span></div>
+      <h3 class="working-h">Geotechnical Engineer – PT. Katama Inovasi Global</h3>
+      <p class="working-sub">After graduated, I work as Geotechnical Engineering at PT. Katama Inovasi Global. This company is patent holder of Konstruksi Sarang Laba – Laba (Shallow Foundation). My responsibilities as Geotechnical Engineer are:
+      </p>
+      <ul style="color: black">
+        <li>To Analyze soil data based on laboraroty result and field test</li>
+        <li>Provide Design Report for KSLL Design</li>
+        <li>Analyze Soil Improvement for slope</li>
+        <li>Coordinate with Sales team as Technical Support</li>
+        <li>Assist Senior Engineer to held a presentation (Sidang Tim Ahli Bangunan Gedung)</li>
+      </ul>
+    </div>
+    <div class="service h-100 working-span" id="w4" style="display: none">
+      <div style="float: right;" ><span class="icon-close2" style="font-size: 27px" id="w_close_4"></span></div>
+      <h3 class="working-h">Quality Control – PT Adhi Gedung</h3>
+      <p class="working-sub">During my college, I had internship around 3 month at PT. Adhi Gedung for  Rumah Sakit khusus Ibu dan Anak Kota Bandung Project. My role is Quality control , my responsibilities are:
+      </p>
+      <ul style="color: black">
+        <li>Make a Daily Report</li>
+        <li>Doing Internal Checklist</li>
+        <li>Assist Senior Quality Control to check steel bar</li>
+      </ul>
+    </div>
+
+  </div>
   <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
@@ -505,7 +450,40 @@
   
   <script src="js/jquery.fancybox.min.js"></script>
   <script src="js/main.js"></script>
-
+  <script>
+     $('#w_close_1').click(function () {
+      $('#w1').css('display','none');
+       $('#box').css('display','none');
+     })
+     $('#w_close_2').click(function () {
+      $('#w2').css('display','none');
+       $('#box').css('display','none');
+     })
+     $('#w_close_3').click(function () {
+      $('#w3').css('display','none');
+       $('#box').css('display','none');
+     })
+     $('#w_close_4').click(function () {
+      $('#w4').css('display','none');
+       $('#box').css('display','none');
+     })
+     $('#r1').click(function(){
+      $('#w1').css('display','block');
+       $('#box').css('display','block');
+     })
+     $('#r2').click(function(){
+      $('#w2').css('display','block');
+       $('#box').css('display','block');
+     })
+     $('#r3').click(function(){
+      $('#w3').css('display','block');
+       $('#box').css('display','block');
+     })
+     $('#r4').click(function(){
+      $('#w4').css('display','block');
+       $('#box').css('display','block');
+     })
+  </script>
      
   </body>
 </html>
